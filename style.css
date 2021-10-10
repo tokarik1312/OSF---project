@@ -10,7 +10,7 @@
     display: none;
   }
   
-  .nav-item:hover {
+  .central:hover {
     background-color: black;
     color: white;
     border-bottom: 2px solid yellowgreen;
@@ -35,6 +35,49 @@
     color: white;
    
   }
+  .fonts i {
+    font-size: 30px;
+  }
+  .badge {
+    font-size: 13px;
+  }
+
+  .submit {
+    width: 200px;
+    border-radius: 15px;
+  }
+.modal-body form input[type="email"], input[type="password"] {
+  border-radius: 15px;
+}
+
+.modal-body form input[type="password"] {
+  /* border: none; */
+ 
+}
+
+.modal-body form input[type="checkbox"] {
+  position: absolute;
+  left: 420px;
+  top: 12px;
+  opacity: 0;
+
+ 
+
+}
+#myInput {
+  border-radius: 15px;
+}
+
+.input-group label i {
+  font-size: 18px;
+  position: absolute;
+  left: 420px;
+  top: 11px;
+}
+.input-group label i:hover {
+  cursor: pointer;
+}
+
   @media (max-width: 992px) and (min-width: 320px) {
     .first-logo {
       display: none;
@@ -60,9 +103,10 @@
       background-color: black;
       
     }
-    .vd {
+    .fonts {
       display: none;
     }
+
   }
   
   
@@ -83,5 +127,8 @@
     color: rgb(255, 255, 255);
     text-decoration: none;
     margin-left: 10px;
+  }
+  .fonts {
+    display: none;
   }
   }
